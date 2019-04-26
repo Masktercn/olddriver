@@ -2,6 +2,7 @@ package cn.wsichao.service;
 
 import cn.wsichao.pojo.AdminUser;
 import cn.wsichao.pojo.AdminUserRole;
+import cn.wsichao.util.CommonUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,5 +19,18 @@ public class AdminUserService extends BaseService<AdminUser> {
         adminUser = selectOne(params);
 
         adminUserRoleService.updateFirst(adminUser.getId(), roleIds);
+    }
+
+    public AdminUser login(String account, String password) {
+        AdminUser adminUser = new AdminUser();
+        adminUser.setAccount(account);
+
+        adminUser = selectOne(adminUser);
+        if(adminUser!=null){
+            if(adminUser.getPassword().equalsIgnoreCase(CommonUtils.calculateMD5(password+ adminUser.getPasswordSalt()))){
+                return adminUser;
+            }
+        }
+        return null;
     }
 }
