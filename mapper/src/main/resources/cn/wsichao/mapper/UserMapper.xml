@@ -36,5 +36,14 @@
             <if test="school!=null"> and school=#{school} </if>
             <if test="isTeacher!=null"> and isTeacher=#{isTeacher} </if>
     </select>
+
+    <select id="search" parameterType="map" resultType="User">
+        select *
+        from T_Users
+        where isDeleted=false
+            <if test="param!=null">and (name like #{param} or school like #{param} or email like #{param} or phone like #{param} )</if>
+            <if test="beginTime!=null">and createTime &gt;= #{beginTime}</if>
+            <if test="endTime!=null">and createTime &lt;= #{endTime}</if>
+    </select>
     
 </mapper>

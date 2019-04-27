@@ -45,5 +45,16 @@
         from T_AdminUserRoles fs left join T_Roles s on fs.roleId=s.id
         where s.isDeleted=false and fs.adminUserId=#{adminUserId}
     </select>
+
+    <select id="checkPermission" parameterType="map" resultType="integer">
+        select count(*)
+        from T_AdminUserRoles ur left join T_Roles r on ur.roleId=r.id
+            left join T_RolePermissions rp on r.id=rp.roleId
+            left join T_Permissions p on rp.permissionId=p.id
+        where r.isDeleted=false
+          and p.isDeleted=false
+          and ur.adminUserId=#{adminUserId}
+          and p.path=#{path}
+    </select>
     
 </mapper>

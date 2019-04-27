@@ -21,7 +21,7 @@ public class PermissionInterceptor extends HandlerInterceptorAdapter {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         //当前adminUserId
         //请求路径
-        AdminUser adminUser = (AdminUser) request.getSession().getAttribute("adminUser");
+        /*AdminUser adminUser = (AdminUser) request.getSession().getAttribute("adminUser");
         if(adminUser == null){
             //用户没有登录
             if(request.getHeader("X-Requested-With") != null){
@@ -50,6 +50,11 @@ public class PermissionInterceptor extends HandlerInterceptorAdapter {
                 response.getWriter().print("权限不足");
             }
             return false;
-        }
+        }*/
+
+
+        //为了方便后面开发，先把上面的代码注释
+        return true;
+        //这行代码在解开注释时要删除
     }
 }
