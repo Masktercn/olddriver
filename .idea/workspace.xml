@@ -7,24 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3765ce6-16b4-4d96-b767-935eb81e26f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_17_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/admin_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/admin_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/cn/wsichao/web/interceptor/KeepOnlineInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/cn/wsichao/web/controller/AdminUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/cn/wsichao/web/controller/AdminUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/cn/wsichao/web/controller/OtherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/cn/wsichao/web/controller/OtherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/target/admin/WEB-INF/classes/cn/wsichao/web/controller/AdminUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/admin/WEB-INF/classes/cn/wsichao/web/controller/AdminUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/target/admin/WEB-INF/classes/cn/wsichao/web/controller/OtherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/admin/WEB-INF/classes/cn/wsichao/web/controller/OtherController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/target/admin/WEB-INF/lib/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/admin/WEB-INF/lib/common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/target/admin/WEB-INF/lib/mapper-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/admin/WEB-INF/lib/mapper-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/target/admin/WEB-INF/lib/pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/admin/WEB-INF/lib/pojo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/target/admin/WEB-INF/lib/service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/admin/WEB-INF/lib/service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/target/classes/cn/wsichao/web/controller/AdminUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/cn/wsichao/web/controller/AdminUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/target/classes/cn/wsichao/web/controller/OtherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/cn/wsichao/web/controller/OtherController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/cn/wsichao/service/AdminUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/cn/wsichao/service/AdminUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/cn/wsichao/service/AdminUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/cn/wsichao/service/AdminUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/resources/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/target/admin/WEB-INF/classes/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/admin/WEB-INF/classes/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/target/classes/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/wsichao/util/JedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/wsichao/util/JedisUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/parent/target/" />
@@ -46,49 +34,7 @@
     <favorites_list name="wsichao" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/cn/wsichao/web/controller/AdminUserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="157" column="54" selection-start-line="157" selection-start-column="54" selection-end-line="157" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4020#4021#0" expanded="true" />
-                <element signature="e#4078#4079#0" expanded="true" />
-                <element signature="e#5235#5236#0" expanded="true" />
-                <element signature="e#5275#5276#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/jsp/adminUser/updatePassword.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/jsp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/cn/wsichao/web/controller/OtherController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -118,8 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mapper/src/main/resources/cn/wsichao/mapper/UserCardMapper.xml" />
-        <option value="$PROJECT_DIR$/mapper/src/main/resources/cn/wsichao/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/mapper/src/main/resources/cn/wsichao/mapper/UserSegmentMapper.xml" />
         <option value="$PROJECT_DIR$/service/src/main/java/cn/wsichao/service/ManyToManyBaseService.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/cn/wsichao/service/CardSubjectService.java" />
@@ -153,7 +97,6 @@
         <option value="$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/jsp/header.jsp" />
         <option value="$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/jsp/subject/add.jsp" />
         <option value="$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/admin/src/main/resources/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/admin/src/main/java/cn/wsichao/web/resolver/MyHandlerExceptionResolver.java" />
         <option value="$PROJECT_DIR$/admin/src/main/java/cn/wsichao/web/controller/SubjectController.java" />
         <option value="$PROJECT_DIR$/mapper/src/main/resources/cn/wsichao/mapper/PermissionMapper.xml" />
@@ -169,6 +112,9 @@
         <option value="$PROJECT_DIR$/service/src/main/java/cn/wsichao/service/AdminUserService.java" />
         <option value="$PROJECT_DIR$/admin/src/main/java/cn/wsichao/web/controller/OtherController.java" />
         <option value="$PROJECT_DIR$/admin/src/main/java/cn/wsichao/web/controller/AdminUserController.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/cn/wsichao/web/interceptor/KeepOnlineInterceptor.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/resources/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/wsichao/util/JedisUtils.java" />
       </list>
     </option>
   </component>
@@ -263,16 +209,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,172 +219,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="resolver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="adminUser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="adminUserRole" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="segment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wsichao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wsichao" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -657,8 +428,16 @@
       <workItem from="1556122880882" duration="3197000" />
       <workItem from="1556205084760" duration="78000" />
       <workItem from="1556238256201" duration="256000" />
-      <workItem from="1556275516588" duration="4128000" />
+      <workItem from="1556275516588" duration="8241000" />
     </task>
+    <task id="LOCAL-00001" summary="Login">
+      <created>1556290054871</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556290054871</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -694,13 +473,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101412000" />
+    <option name="totallyTimeSpent" value="105525000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="850" y="0" width="830" height="1050" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989796" visible="true" weight="0.1007326" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989796" visible="true" weight="0.16116752" />
       <window_info id="Structure" order="1" sideWeight="0.50102043" side_tool="true" weight="0.4098985" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -711,7 +489,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3265306" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25306123" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25306123" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -751,13 +529,11 @@
       </list>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/jsp/role/list.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/jsp/role/update.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/main/java/cn/wsichao/web/controller/PermissionController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="903">
@@ -825,22 +601,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/main/java/cn/wsichao/web/controller/RolePermissionController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1075,13 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/cn/wsichao/web/controller/OtherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/jsp/adminUser/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -1096,15 +851,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/wsichao/util/JedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/jsp/adminUser/updatePassword.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-76" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/cn/wsichao/web/interceptor/KeepOnlineInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/cn/wsichao/web/controller/OtherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/main/java/cn/wsichao/web/controller/AdminUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="157" column="54" selection-start-line="157" selection-start-column="54" selection-end-line="157" selection-end-column="54" />
+        <state relative-caret-position="565">
+          <caret line="163" column="5" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4020#4021#0" expanded="true" />

@@ -46,6 +46,25 @@
 		<property name="maxInMemorySize" value="40960" />
 	</bean>
 
+	<!--配置 保持在线 拦截器-->
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/"/>
+			<mvc:mapping path="/subject/*"/>
+			<mvc:mapping path="/card/*"/>
+			<mvc:mapping path="/user/*"/>
+			<mvc:mapping path="/classes/*"/>
+			<mvc:mapping path="/permission/*"/>
+			<mvc:mapping path="/role/*"/>
+			<mvc:mapping path="/adminUser/*"/>
+			<mvc:mapping path="/rolePermission/*"/>
+
+			<mvc:exclude-mapping path="/adminUser/login.do"/>
+
+			<bean class="cn.wsichao.web.interceptor.KeepOnlineInterceptor"></bean>
+		</mvc:interceptor>
+	</mvc:interceptors>
+
 	<!-- 资源映射 -->
 	<mvc:resources location="/css/" mapping="/css/**" />
 	<mvc:resources location="/js/" mapping="/js/**" />
