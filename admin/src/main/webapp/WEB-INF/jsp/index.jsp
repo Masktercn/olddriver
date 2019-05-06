@@ -8,7 +8,7 @@
 </head>
 <body>
 <header class="Hui-header cl"> 
-    <a class="Hui-logo l" title="如鹏网 后台管理系统">老司机教学后台管理系统</a>
+    <a class="Hui-logo l" title="">老司机教学后台管理系统</a>
 	<ul class="Hui-userbar">
 		<li class="dropDown dropDown_hover"><a class="dropDown_A">${sessionScope.adminUser.account } <i class="Hui-iconfont">&#xe6d5;</i></a>
 			<ul class="dropDown-menu radius box-shadow">

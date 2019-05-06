@@ -77,6 +77,8 @@
 			<!-- TODO : other path-->
 			<mvc:exclude-mapping path="/adminUser/login.do"/>
 			<mvc:exclude-mapping path="/adminUser/logout.do"/>
+
+
 			<bean class="cn.wsichao.web.interceptor.PermissionInterceptor"></bean>
 		</mvc:interceptor>
 

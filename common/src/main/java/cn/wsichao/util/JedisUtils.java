@@ -14,7 +14,7 @@ public class JedisUtils {
 
     private static final Logger logger = LogManager.getLogger(JedisUtils.class);
 
-    private static JedisPool jedisPool = new JedisPool("http://127.0.0.1:32769");
+    private static JedisPool jedisPool = new JedisPool("http://127.0.0.1:32773");
 
     private JedisUtils() {
 

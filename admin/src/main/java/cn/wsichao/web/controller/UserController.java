@@ -39,7 +39,10 @@ public class UserController {
         }
         if(!CommonUtils.isEmpty(param)){
             param = "%"+param+"%";
+        } else{
+            param = null;
         }
+
         Map<String , Object> params = new HashMap<String, Object>();
         params.put("beginTime", beginTime);
         params.put("endTime", endTime);
